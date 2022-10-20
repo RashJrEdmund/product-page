@@ -18,6 +18,8 @@ body{
 .submit{
     width: 500px;
     height: 25px;
+    color: #fff;
+    background-color: green;
 }
 #header{
     color: #fff;
