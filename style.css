@@ -4,16 +4,17 @@ body{
 }
 #frontForm{
     max-width:500px;
-    margin: 1.125rem auto 0.0 auto;
-    padding: 1.5rem;
+    margin: auto;/*1.125rem auto 0.0 auto;*/
+    padding: 2.5rem;
     padding-left: 55px;
     background-color: rgba(27, 27, 50, 0.8);
     color: #fff;
 }
 .input{
-    width: 450px;
+    width: 500px;
     height: 25px;
     border-radius: 3.7px;
+    margin-bottom: 15px;
 }
 .submit{
     width: 500px;
@@ -24,14 +25,17 @@ body{
 #header{
     color: #fff;
     text-align: center;
-    font-size: 35px;
+    font-size: 28px;
     font-family: sans-serif;
+    padding-top: 20px;
 }
 #header_1{
     color: #fff;
     text-align: center;
     font-family: sans-serif;
     font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 .roleSelect{
     
