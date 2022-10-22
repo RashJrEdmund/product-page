@@ -9,6 +9,7 @@ body{
     padding-left: 55px;
     background-color: rgba(27, 27, 50, 0.8);
     color: #fff;
+    border-radius: 2px;
 }
 .input{
     width: 500px;
@@ -20,7 +21,9 @@ body{
     width: 500px;
     height: 25px;
     color: #fff;
-    background-color: green;
+    background-color: rgb(20, 189, 110);
+    border: none;
+    height: 35px;
 }
 #header{
     color: #fff;
@@ -36,9 +39,6 @@ body{
     font-style: italic;
     padding-top: 10px;
     padding-bottom: 15px;
-}
-.roleSelect{
-    
 }
 .btn{
     border-radius: 3.7px;
