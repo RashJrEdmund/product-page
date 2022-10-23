@@ -2,7 +2,7 @@ body {
   background-image: linear-gradient(115deg, rgb(58, 58, 158, 80%), rgb(136, 136, 206, 70%)), url("../images/feather.jpg");
 }
 
-#frontForm {
+#frontform {
   max-width: 500px;
   margin: auto; /* 1.125rem auto 0.0 auto; */
   padding: 2.5rem;
@@ -31,7 +31,7 @@ body {
   font-family: sans-serif;
   padding-top: 20px;
 }
-#header_1 {
+#header-1 {
   color: #fff;
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
