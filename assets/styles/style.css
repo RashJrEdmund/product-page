@@ -11,12 +11,14 @@ body {
   color: #fff;
   border-radius: 2px;
 }
+
 .input {
   width: 500px;
   height: 25px;
   border-radius: 3.7px;
   margin-bottom: 15px;
 }
+
 .submit {
   width: 500px;
   height: 35px;
@@ -24,6 +26,7 @@ body {
   background-color: rgb(20, 189, 110);
   border: none;
 }
+
 #header {
   color: #fff;
   text-align: center;
@@ -31,6 +34,7 @@ body {
   font-family: sans-serif;
   padding-top: 20px;
 }
+
 #header-1 {
   color: #fff;
   text-align: center;
@@ -39,6 +43,7 @@ body {
   padding-top: 10px;
   padding-bottom: 15px;
 }
+
 .comment{
   border-radius: 3.7px;
 }
