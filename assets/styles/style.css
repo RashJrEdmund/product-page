@@ -2,19 +2,38 @@ body {
   background-image: linear-gradient(115deg, rgb(58, 58, 158, 80%), rgb(136, 136, 206, 70%)), url("../images/feather.jpg");
 }
 
-#frontform {
-  max-width: 500px;
-  margin: auto; /* 1.125rem auto 0.0 auto; */
-  padding: 2.5rem;
-  padding-left: 55px;
-  background-color: rgb(27, 27, 50, 80%);
+.header {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+
+.header-1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+form {
+  background-color: #1b1b32cc;
+  width: 90vw;
+  max-width: 700px;
+  margin: auto;
   color: #fff;
   border-radius: 2px;
+  display: flex;
+  flex-direction: column;
 }
 
 .input {
-  width: 500px;
-  height: 25px;
+  background-color: brown;
+  width: 90%;
+  height: 30px;
   border-radius: 3.7px;
   margin-bottom: 15px;
 }
@@ -25,23 +44,6 @@ body {
   color: #fff;
   background-color: rgb(20, 189, 110);
   border: none;
-}
-
-#header {
-  color: #fff;
-  text-align: center;
-  font-size: 28px;
-  font-family: sans-serif;
-  padding-top: 20px;
-}
-
-#header-1 {
-  color: #fff;
-  text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-style: italic;
-  padding-top: 10px;
-  padding-bottom: 15px;
 }
 
 .comment{

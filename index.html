@@ -3,92 +3,85 @@
         <title>survey-form.freecodecamp.rocks</title>
         <link rel="stylesheet" href="assets/styles/style.css">
     </head>
-     <body>
-            <div id="header">freeCodeCamp Survey Form</div>
+    <body>
+        <div class="header">freeCodeCamp Survey Form</div>
+        
+        <div class="header-1">Thank you for taking the time to help us improve the platform</div>
+
+        <form>
+            <label for="name">Name</label>
+
+            <input type="text" id="name" placeholder="Enter your name" class="input" required>
+
+            <label for="email">Email</label>
+
+            <input type="text" id="email" placeholder="Enter your Email" class="input" required>
+
+            <label for="age">Age(optional)</label>
+
+            <input type="float" id="age" placeholder="Enter your Age" class="input" required>
+
+            <label>Which option best describes your current role?</label>
             
-            <div id="header-1">Thank you for taking the time to help us improve the platform</div>
-
-            <form id="frontform">
-                <label for="name">Name</label>
-
-                <input type="text" name="fullname" placeholder="Enter your name" class="input" required>
-
-                <label for="email">Email</label>
-
-                <input type="text" name="email" placeholder="Enter your Email" class="input" required>
-
-                <label for="age">Age(optional)</label>
-
-                <input type="float" name="age" placeholder="Enter your Age" class="input" required>
-
-                <label>Which option best describes your current role?</label>
+            <select class="input">
+                <option value="Select current role">Select current role</option>
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time Learner">Full Time Learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Other">Other</option>
+            </select>
                 
-                <select class="input">
-                    <option value="Select current role">Select current role</option>
-                    <option value="Student">Student</option>
-                    <option value="Full Time Job">Full Time Job</option>
-                    <option value="Full Time Learner">Full Time Learner</option>
-                    <option value="Prefer not to say">Prefer not to say</option>
-                    <option value="Other">Other</option>
-                </select></br>
-                 
-                <label>Would you recommend freecodecamp to a friend?</br>
-                    <label><input type="radio"  name="Definitely-Maybe-Not sure"> Definitely</label></br>
-                    <label><input type="radio"  name="Definitely-Maybe-Not sure"> Maybe</label></br>
-                    <label><input type="radio" name="Definitely-Maybe-Not sure"> Not sure</label>
-                </label></br>
-                
-                <!--<p>Would you recommend freecodecamp to a friend?</p>
+            <div class="recommend">
+                <label>Would you recommend freecodecamp to a friend?</label>
+                <label><input type="radio"  name="Definitely-Maybe-Not sure"> Definitely</label>
+                <label><input type="radio"  name="Definitely-Maybe-Not sure"> Maybe</label>
+                <label><input type="radio" name="Definitely-Maybe-Not sure"> Not sure</label>
+            </div>
+            
+            <label for="What is your favorite feature of freecodecamp?">What is your favorite feature of freecodecamp?</label>
+            
+            <select class="input">
+                <option value="Select an option">Select an option</option>
+                <option value="Challenges">Challenges</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Open Source">Open Source</option>
+            </select>
+            <div class="checkbox">
+                <label for="What would you like to see improved? (check all that apply)">What would you like to see improved? (check all that apply)</p> <!--the check boxes start from below-->
 
-                <p><label for="Would you recommend freecodecamp to a friend?"><input type="radio"  name="Definitely-Maybe-"> Definitely</label></p>
-                
-                <p><label for="Would you recommend freecodecamp to a friend?"><input type="radio"  name="in-out"> Maybe</label></p>
-
-                <p><label for="Would you recommend freecodecamp to a friend?"><input type="radio" name="in-out"> Not sures</label></p> -->
-                
-                <label for="What is your favorite feature of freecodecamp?">What is your favorite feature of freecodecamp?</label>
-                
-                <select class="input">
-                    <option value="Select an option">Select an option</option>
-                    <option value="Challenges">Challenges</option>
-                    <option value="Projects">Projects</option>
-                    <option value="Community">Community</option>
-                    <option value="Open Source">Open Source</option>
-                </select></br>
-                <div id="checkbox">
-                    <label for="What would you like to see improved? (check all that apply)">What would you like to see improved? (check all that apply)</p> <!--the check boxes start from below-->
-
-                        <label><input type="checkbox"> Front-end Projects</label></br>
-                        
-                        <label><input type="checkbox"> Back-end Projects</label></br>
-
-                        <label><input type="checkbox"> Data Visualization</label></br>
-
-                        <label><input type="checkbox"> Challenges</label></br>
-                        
-                        <label><input type="checkbox"> Open Source Community</label></br>
-
-                        <label><input type="checkbox"> Gitter help rooms</label></br>
-
-                        <label><input type="checkbox"> Videos</label></br>
-
-                        <label><input type="checkbox"> City Meetups</label></br>
-
-                        <label><input type="checkbox"> WIKI</label></br>
-                        
-                        <label><input type="checkbox"> Forum</label></br>
-
-                        <label><input type="checkbox"> Additional Courses</label></br>
+                    <label><input type="checkbox"> Front-end Projects</label>
                     
-                    </label>
-                </div>
-                <p>Any comments or suggestions?</p>
+                    <label><input type="checkbox"> Back-end Projects</label>
 
-                <p><textarea name="" id="" cols="60px" rows="6px" placeholder="enter your comment" class="comment"></textarea></p>
+                    <label><input type="checkbox"> Data Visualization</label>
 
-                <button class="submit">
-                    Submit
-                </button>
-            </form>
-     </body>
+                    <label><input type="checkbox"> Challenges</label>
+                    
+                    <label><input type="checkbox"> Open Source Community</label>
+
+                    <label><input type="checkbox"> Gitter help rooms</label>
+
+                    <label><input type="checkbox"> Videos</label>
+
+                    <label><input type="checkbox"> City Meetups</label>
+
+                    <label><input type="checkbox"> WIKI</label>
+                    
+                    <label><input type="checkbox"> Forum</label>
+
+                    <label><input type="checkbox"> Additional Courses</label>
+                
+                </label>
+            </div>
+            <p>Any comments or suggestions?</p>
+
+            <p><textarea name="" id="" cols="60px" rows="6px" placeholder="enter your comment" class="comment"></textarea></p>
+
+            <button class="submit">
+                Submit
+            </button>
+        </form>
+    </body>
 </html>
