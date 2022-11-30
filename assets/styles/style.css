@@ -1,5 +1,6 @@
 body {
-  background-image: linear-gradient(115deg, rgb(58, 58, 158, 80%), rgb(136, 136, 206, 70%)), url("../images/feather.jpg");
+  font-family: sans-serif;
+  background-image: linear-gradient(115deg, #3a3a9ecc, #8888ceb3), url("../images/feather.jpg");
 }
 
 .header {
@@ -30,19 +31,27 @@ form {
   flex-direction: column;
 }
 
-.input {
-  background-color: brown;
+.section1 {
+  background-color: yellowgreen;
   width: 90%;
+  margin: auto;
+}
+
+.section1 .input {
+  background-color: brown;
+  width: 100%;
   height: 30px;
   border-radius: 3.7px;
   margin-bottom: 15px;
 }
 
 .submit {
-  width: 500px;
-  height: 35px;
+  width: 90%;
+  height: 40px;
+  margin: auto;
   color: #fff;
-  background-color: rgb(20, 189, 110);
+  background-color: #14bd6e;
+  border-radius: 2px;
   border: none;
 }
 
