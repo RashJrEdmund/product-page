@@ -6,6 +6,7 @@ body {
   font-family: sans-serif;
   background-image: linear-gradient(115deg, #3a3a9ecc, #8888ceb3), url("../images/feather.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -26,7 +27,7 @@ body {
 
 form {
   background-color: #1b1b32cc;
-  width: 94vw;
+  width: 95vw;
   max-width: 700px;
   height: fit-content;
   margin: auto;
@@ -113,4 +114,10 @@ textarea {
   border: none;
   font-size: 1.2rem;
   margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 98vw;
+  }
 }
