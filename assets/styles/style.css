@@ -1,5 +1,6 @@
 * {
   border: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -40,9 +41,11 @@ form {
 
 .input {
   width: 100%;
+  padding:  0 10px;
   height: 40px;
   border-radius: 3.7px;
   margin-bottom: 15px;
+  word-break: normal;
 }
 
 .section1 {
@@ -114,10 +117,4 @@ textarea {
   border: none;
   font-size: 1.2rem;
   margin-top: 2rem;
-}
-
-@media only screen and (max-width: 600px) {
-  form {
-    width: 98vw;
-  }
 }
